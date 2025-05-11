@@ -93,11 +93,11 @@ const animatedIcon = iconMap[iconCode] ||  { icon: 'CLOUDY', color: 'white' };
             <div className="flex flex-col xl:flex-row gap-4 mt-10">
                 {/* Left section: city and time */}
                 <div className="w-full xl:w-1/3 h-auto md:h-72 bg-[#050e1fde] shadow-2xl shadow-black rounded-lg text-white p-4 flex flex-col justify-between items-center">
-                    <h1 className='text-2xl md:text-3xl font-bold'>
+                    <h1 className='text-3xl md:text-4xl font-bold'>
                         {cityName || weatherData.name}
                     </h1>
                     {/* <img src={weatherIconUrl} alt={weather[0].description} className='w-35 select-none'   /> */}
-                    <ReactAnimatedWeather icon={animatedIcon.icon} color={animatedIcon.color} size={96} animate={true} />
+                    <ReactAnimatedWeather icon={animatedIcon.icon} color={animatedIcon.color} size={70} animate={true} />
                     <Clock />
                 </div>
                 {/* Right section: weather details */}

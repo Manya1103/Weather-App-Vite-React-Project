@@ -7,10 +7,10 @@ const iconMap = {
   '03n': { icon: 'CLOUDY', color: '#6b7280' },            // Darker gray
   '04d': { icon: 'CLOUDY', color: '#6b7280' },            // Consistent gray
   '04n': { icon: 'CLOUDY', color: '#4b5563' },            // Darker tone
-  '09d': { icon: 'RAIN', color: '#60a5fa' },              // Light blue
-  '09n': { icon: 'RAIN', color: '#3b82f6' },              // Deeper blue
-  '10d': { icon: 'RAIN', color: '#2563eb' },              // Deep rain blue
-  '10n': { icon: 'RAIN', color: '#1d4ed8' },              // Even deeper
+  '09d': { icon: 'RAIN', color: '#d1eaeb' },              // Light blue
+  '09n': { icon: 'RAIN', color: '#d1eaeb' },              // white
+  '10d': { icon: 'RAIN', color: '#d1eaeb' },              // white
+  '10n': { icon: 'RAIN', color: '#d1eaeb' },              // white
   '11d': { icon: 'SLEET', color: '#8b5cf6' },             // Electric purple
   '11n': { icon: 'SLEET', color: '#7c3aed' },
   '13d': { icon: 'SNOW', color: '#e0f2fe' },              // Soft blue-white
