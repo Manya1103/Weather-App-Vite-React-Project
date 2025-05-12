@@ -8,11 +8,11 @@ const iconMap = {
   '04d': { icon: 'CLOUDY', color: '#6b7280' },            // Consistent gray
   '04n': { icon: 'CLOUDY', color: '#4b5563' },            // Darker tone
   '09d': { icon: 'RAIN', color: '#d1eaeb' },              // Light blue
-  '09n': { icon: 'RAIN', color: '#d1eaeb' },              // white
-  '10d': { icon: 'RAIN', color: '#d1eaeb' },              // white
-  '10n': { icon: 'RAIN', color: '#d1eaeb' },              // white
-  '11d': { icon: 'SLEET', color: '#8b5cf6' },             // Electric purple
-  '11n': { icon: 'SLEET', color: '#7c3aed' },
+  '09n': { icon: 'RAIN', color: '#d1eaeb' },              
+  '10d': { icon: 'RAIN', color: '#d1eaeb' },              
+  '10n': { icon: 'RAIN', color: '#d1eaeb' },              
+  '11d': { icon: 'SLEET', color: '#64748b' },             
+  '11n': { icon: 'SLEET', color: '#64748b' },
   '13d': { icon: 'SNOW', color: '#e0f2fe' },              // Soft blue-white
   '13n': { icon: 'SNOW', color: '#bae6fd' },
   '50d': { icon: 'FOG', color: '#cbd5e1' },               // Foggy gray-blue
