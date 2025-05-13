@@ -106,7 +106,7 @@ This app uses the [OpenWeather API](https://openweathermap.org/api) to fetch wea
 
 ## Live Demo
 
-Check out the live demo: [https://your-demo-url.com](https://your-demo-url.com)
+Check out the live demo: [https://weather-app-vite-react-project.netlify.app/]
 
 ## Acknowledgements
 
