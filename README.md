@@ -80,6 +80,7 @@ npm install
 VITE_OPENWEATHER_API_KEY=your_api_key_here
 ```
  *(Replace `your_api_key_here` with your actual API key)*
+ 
 4. Start the development server:
 ```bash
 npm run dev
