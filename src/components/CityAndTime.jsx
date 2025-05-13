@@ -34,7 +34,8 @@ const CityAndTime = ({ cityName, lat, lon, setLat, setLon }) => {
             } else {
                 toast.error("No city or location provided");
             }
-
+          
+            // Fetch current weather data
             const currentWeather = await axios.get(url);
             setWeatherData(currentWeather.data);
             console.log("Current icon:", currentWeather.data.weather[0].icon);
@@ -44,14 +45,24 @@ const CityAndTime = ({ cityName, lat, lon, setLat, setLon }) => {
             setLat(coord.lat);
             setLon(coord.lon);
 
+            // Fetch forecast data
             const forecast = await axios.get(`https://api.openweathermap.org/data/2.5/forecast?lat=${coord.lat}&lon=${coord.lon}&units=metric&appid=${API_KEY}`);
             setForecastData(forecast.data);
 
+            // Fetch UV index
             const uv = await axios.get(`https://api.openweathermap.org/data/2.5/uvi?lat=${coord.lat}&lon=${coord.lon}&appid=${API_KEY}`);
             setUvIndex(uv.data.value);
 
         } catch (error) {
-            console.error("Error fetching weather data:", error); {/* API error */ }
+            console.error("Error fetching weather data:", error);
+
+            if (error.response && error.response.status === 404) {
+                toast.error("Location not found. Please check your input.");
+            } else if (error.response && error.response.status === 401) {
+                toast.error("Invalid API key. Please check your API configuration.");
+            } else {
+                toast.error("Failed to fetch weather data. Please try again.");
+            }
         }
     }
 
