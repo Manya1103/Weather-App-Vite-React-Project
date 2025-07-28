@@ -38,30 +38,30 @@ This is a weather application built with **React** and **Vite**. The app provide
 
 ## Project Structure
 weather-app-project/
-├── node_modules           # Project dependencies
-├── public/                # Static assets
+├── node_modules          
+├── public/               
 │   └── vite.svg
-├── readmeSS               # weather app screenshots
-├── src/                   # Source code
-│   ├── assets/            # Images and icons
-│   ├── components/        # Reusable React components
-│   │   ├── NavBar.jsx     # Navigation bar for city search and geolocation
-│   │   ├── CityAndTime.jsx # Displays city name, time, and weather details
-│   │   ├── Clock.jsx      # Displays the current time and date
-│   │   ├── Forecast.jsx   # Displays 5-day and hourly weather forecasts
-│   │   ├── IconMapper.jsx # Maps weather codes to animated icons
-│   ├── App.jsx            # Main application component
-│   ├── main.jsx           # Entry point
-│   ├── index.css          # Global styles
-├── .env                   # Environment variables
-├── .gitignore             # Git ignore rules
-├── index.html             # HTML template
-├── package.json           # Project metadata and dependencies
-├── package-lock.json      # Lockfile for consistent dependency versions
-├── postcss.config.js      # PostCSS configuration
-├── tailwind.config.js     # Tailwind CSS configuration
-├── vite.config.js         # Vite configuration
-├── README.md              # Project documentation
+├── readmeSS              
+├── src/                  
+│   ├── assets/           
+│   ├── components/       
+│   │   ├── NavBar.jsx    
+│   │   ├── CityAndTime.jsx
+│   │   ├── Clock.jsx      
+│   │   ├── Forecast.jsx  
+│   │   ├── IconMapper.jsx 
+│   ├── App.jsx           
+│   ├── main.jsx           
+│   ├── index.css          
+├── .env                   
+├── .gitignore             
+├── index.html             
+├── package.json           
+├── package-lock.json      
+├── postcss.config.js      
+├── tailwind.config.js     
+├── vite.config.js         
+├── README.md              
 
 
 ## Installation
