@@ -38,7 +38,6 @@ This is a weather application built with **React** and **Vite**. The app provide
 
 ## Project Structure
 weather-app-project/
-
 ├── node_modules          
 ├── public/               
 │   └── vite.svg
